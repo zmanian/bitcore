@@ -78,7 +78,7 @@ exports.dogecoin.livenet = {
   addressScript: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
-  privKeyVersion: 128,
+  privKeyVersion: 158,
   dnsSeeds: [
     '95.85.29.144',
     '162.243.113.110',
@@ -111,8 +111,8 @@ exports.dogecoin.testnet = {
   checkpoints: [], // need to put checkput blocks here
   addressPubkey: 111,
   addressScript: 196,
-  bip32public: 0x043587cf,
-  bip32private: 0x04358394,
+  hkeyPublicVersion: 0x043587cf,
+  hkeyPrivateVersion: 0x04358394,
   privKeyVersion: 239,
   dnsSeeds: [
     'testdoge.lionservers.de',

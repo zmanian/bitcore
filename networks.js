@@ -3,6 +3,8 @@ var buffertools = require('buffertools');
 var hex = function(hex) {
   return new Buffer(hex, 'hex');
 };
+exports.bitcoin ={}
+exports.dogecoin ={}
 
 exports.bitcoin.livenet = {
   name: 'BitCoin livenet',
@@ -106,8 +108,8 @@ exports.dogecoin.testnet = {
     timestamp: 1296688602,
     bits: 486604799,
   },
-  genesisBlockTx: module.exports.livenet.genesisBlockTx,
-  proofOfWorkLimit: module.exports.livenet.proofOfWorkLimit,
+  genesisBlockTx: module.exports.dogecoin.livenet.genesisBlockTx,
+  proofOfWorkLimit: module.exports.dogecoin.livenet.proofOfWorkLimit,
   checkpoints: [], // need to put checkput blocks here
   addressPubkey: 111,
   addressScript: 196,

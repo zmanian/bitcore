@@ -127,3 +127,5 @@ exports.dogecoin.testnet = {
 exports.mainnet=exports.bitcoin.mainnet
 exports.livenet=exports.bitcoin.livenet
 exports.testnet=exports.bitcoin.testnet
+exports.dogelive=exports.dogecoin.livenet
+exports.dogetest=exports.dogecoin.testnet
